@@ -1,0 +1,28 @@
+<html manifest="cache.appcache">
+<head>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	<script src="{{ url_for('static', filename='jquery.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='prototype.js') }}"></script>
+</head>
+
+<body>
+
+
+<div style= "width:500px; margin: 0px auto;">
+		
+		<a style="cursor:hand;" id="Player1" class="blue" href="/oneplayer">
+    		<h2>1 Player</h2>
+    <!-- <span>Play again later.</span> -->
+</a>
+<!-- 
+<a href="#" class="button2 blue">
+    Create Account
+</a> -->
+	<a style="cursor:hand;" id="Players"class="blue" href="/twoplayer">
+    		<h2>2 Players</h2>
+    <!-- <span>Play again later.</span> -->
+</a>
+	</div>
+
+
+</body>
